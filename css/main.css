@@ -139,6 +139,11 @@ body > section {
   margin-bottom: 0;
 }
 
+.grey-bg {
+  background-color: #474752;
+  margin-bottom: 0;
+}
+
 @-webkit-keyframes scaleIn {
   0% {
     opacity: 0;
@@ -290,7 +295,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
+	background-color: #474752;
   color: #fff;
 }
 
@@ -310,7 +315,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
+  background-color: #474752;
   color: #fff;
 }
 
@@ -661,6 +666,12 @@ input.search-form:hover {
 #services .lead,
 #services h2{
   color: #fff;
+}
+
+#services .list{
+	color: #fff;
+	text-align: left;
+	font-size: 16px;
 }
 
 .services-wrap {
