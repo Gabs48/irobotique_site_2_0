@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.irobotique.be/</loc>
+  <lastmod>2015-05-10T20:02:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.irobotique.be/index.html</loc>
+  <lastmod>2015-05-10T20:02:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.irobotique.be/projet.html</loc>
+  <lastmod>2015-06-17T20:36:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.irobotique.be/equipe.html</loc>
+  <lastmod>2015-05-23T14:11:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.irobotique.be/eurobot.html</loc>
+  <lastmod>2015-05-03T22:19:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.irobotique.be/contact.html</loc>
+  <lastmod>2015-05-03T21:39:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.irobotique.be/Dossier-de-sponsoring-1412.pdf</loc>
+  <lastmod>2015-06-15T21:38:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>
