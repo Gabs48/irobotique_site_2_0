@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>iRobotique | Contact</title>
+	<meta name="Content-Type" content="UTF-8">
+	<meta name="Content-Language" content="fr">
+	<meta name="Description" content="Coordonnées et localisation de l'ASBL">
+	<meta name="Keywords" content="irobotique robotique Mons musées MILO guide ASBL visites Eurobot robots robot robotics Belgium FPMs UMONS université muséologie ROS vidéo mapping navigation 3D">
+	<meta name="Subject" content="Robot guide de musée">
+	<meta name="Copyright" content="irobotique">
+	<meta name="Author" content="Gabriel Urbain">
+	<meta name="Publisher" content="iRobotique ASBL">
+	<meta name="Identifier-Url" content="http://www.irobotique.be/contact.html">
+	<meta name="Revisit-After" content="15 days">
+	<meta name="Robots" content="all">
+	<meta name="Rating" content="general">
+	<meta name="Distribution" content="global">
+	<meta name="Geography" content="7000, Mons, Belgique">
+	<meta name="Category" content="engineering">
+	
+	<!-- core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->       
+	<link rel="shortcut icon" href="images/favicon.ico">
+</head><!--/head-->
+
+<body class="homepage">
+
+	<header id="header">
+		<nav class="navbar navbar-inverse" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+				</div>
+				
+				<div class="collapse navbar-collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="projet.html">Projet</a></li>
+						<li><a href="equipe.html">Equipe</a></li>
+						<li><a href="eurobot.html">Eurobot</a></li>
+						<li class="active"><a href="contact.html">Contact</a></li> 
+					</ul>
+				</div>
+				<!--<div class="collapse navbar-collapse navbar-right">
+					<ul class="nav navbar-nav">                       
+					</ul>
+				</div>-->
+			</div><!--/.container-->
+		</nav><!--/nav-->
+	</header><!--/header-->
+
+	<section id="contact-info">
+		<div class="center">                
+			<h2>Envoyez nous un courrier</h2>
+			<p class="lead">Vous pouvez nous contacter par courrier au bureau de l'ASBL iRobotique, situé dans les bâtiments UMons ou plus simplement directement par e-mail</p>
+		</div>
+		<div class="gmap-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-7 text-center">
+						<div class="gmap">
+						<a href="https://www.google.be/maps/place/Rue+du+Joncquois+53,+7000+Mons/@50.4460796,3.9562233,18z/data=!4m7!1m4!3m3!1s0x47c2455585c5c85d:0x1b5499b2f0b1857a!2sRue+du+Joncquois+53,+7000+Mons!3b1!3m1!1s0x47c2455585c5c85d:0x1b5499b2f0b1857a">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.3663433617805!2d3.956223300000003!3d50.4460796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2455585c5c85d%3A0x1b5499b2f0b1857a!2sRue+du+Joncquois+53%2C+7000+Mons!5e0!3m2!1sfr!2sbe!4v1430688941698" width="600" height="450" frameborder="0" style="border:0"></iframe>
+						</a>
+						</div>
+					</div>
+
+					<div class="col-sm-5 map-content">
+					<br><br><br><br>
+						<address>
+							<h5>ASBL iRobotique</h5>
+							<p>53, rue du Joncquois<br>
+							7000 Mons</p>
+							<p>Email: 
+								<script type="text/javascript">
+									var string1 = "info";
+									var string2 = "@";
+									var string3 = "irobotique.be";
+									var string4 = string1 + string2 + string3;
+									document.write("<a href=" + "mail" + "to:" + string1 + string2 + string3 + ">" + string4 + "</a>");
+								</script>
+							</p>
+						</address>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>  <!--/gmap_area -->
+<!--
+	<section id="contact-page">
+		<div class="container">
+			<div class="center">        
+				<h2>Laissez votre message</h2>
+				<p class="lead">Pour plus de facilité, vous pouvez également laisser votre message ainsi que votre adresse e-mai et nous vous recontacterons dès que possible</p>
+			</div> 
+			<div class="row contact-wrap"> 
+				<div class="status alert alert-success" style="display: none"></div>
+				<form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+					<div class="col-sm-5 col-sm-offset-1">
+						<div class="form-group">
+							<label>Nom *</label>
+							<input type="text" name="name" class="form-control" required="required">
+						</div>
+						<div class="form-group">
+							<label>E-mail *</label>
+							<input type="email" name="email" class="form-control" required="required">
+						</div>
+						<div class="form-group">
+							<label>Numéro de téléphone</label>
+							<input type="number" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Nom de l'entreprise</label>
+							<input type="text" class="form-control">
+						</div>                        
+					</div>
+					<div class="col-sm-5">
+						<div class="form-group">
+							<label>Sujet *</label>
+							<input type="text" name="subject" class="form-control" required="required">
+						</div>
+						<div class="form-group">
+							<label>Message *</label>
+							<textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+						</div>                        
+						<div class="form-group">
+							<button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Envoyer message</button>
+						</div>
+					</div>
+				</form> 
+			</div>
+		</div>
+	</section>-->
+
+	<footer id="footer" class="midnight-blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					&copy; 2015 <a target="_blank" href="http://www.irobotique.be" title="ASBL iRobotique">ASBL iRobotique</a>. Tous droits réservés.
+				</div>
+				<div class="col-sm-6">
+					<ul class="pull-right">
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="projet.html">Projet</a></li>
+						<li><a href="equipe.html">Equipe</a></li>
+						<li><a href="eurobot.html">Eurobot</a></li>
+						<li><a href="contact.html">Contact</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer><!--/#footer-->
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/wow.min.js"></script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-64498695-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>
